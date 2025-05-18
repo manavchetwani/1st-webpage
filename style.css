@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('EFFDA680-CE95-4D4D-A49A-62B0EAA452E6.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.screen {
+    background-color: rgba(255, 192, 203, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 5% auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+button {
+    background-color: hotpink;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input, textarea, select {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}

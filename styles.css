@@ -1,0 +1,17 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  animation: backgroundFade 20s infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes backgroundFade {
+  0%   { background-image: url('images/bg1.jpeg'); }
+  25%  { background-image: url('images/bg2.jpeg'); }
+  50%  { background-image: url('images/bg3.jpeg'); }
+  75%  { background-image: url('images/bg4.jpeg'); }
+  100% { background-image: url('images/bg1.jpeg'); }
+}
